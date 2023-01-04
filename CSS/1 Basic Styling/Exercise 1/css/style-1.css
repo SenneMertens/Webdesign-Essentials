@@ -1,0 +1,101 @@
+body {
+    font-family: sans-serif;
+}
+
+svg {
+    background-color: #ccc;
+}
+
+table,
+th,
+td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+/* Colors */
+
+.red {
+    color: red;
+}
+
+/* Fonts */
+
+.arial {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.comicsans {
+    font-family: "Comic Sans MS", cursive;
+}
+
+.monospace {
+    font-family: monospace, sans-serif;
+}
+
+.timesnewroman {
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+.verdana {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+/* Text Decoration */
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.smallcaps {
+    font-variant: small-caps;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/* Text Size */
+
+.fs18 {
+    font-size: 18px;
+}
+
+.fs20 {
+    font-size: 20px;
+}
+
+.fs15rem {
+    font-size: 1.5rem;
+}
+
+.fs2rem {
+    font-size: 2rem;
+}
+
+.fs3rem {
+    font-size: 3rem;
+}
+
+/* Text Allignment */
+
+.textcenter {
+    text-align: center;
+}
+
+.textright {
+    text-align: right;
+}
+
+.lh30 {
+    line-height: 30px;
+}

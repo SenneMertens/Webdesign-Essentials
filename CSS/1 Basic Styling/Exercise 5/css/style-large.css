@@ -1,0 +1,32 @@
+body {
+    font-size: 1.5rem;
+    background-image: url(../images/home.png);
+    background-position: bottom left;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+
+table {
+    border-width: 5px;
+}
+
+caption {
+    color: #79a51b;
+    background-color: black;
+    font-size: 1.2rem;
+    caption-side: bottom;
+}
+
+td {
+    width: 400px;
+}
+
+td:nth-child(1) li {
+    list-style-image: url(../images/plus.png);
+    list-style-position: inside;
+}
+
+td:nth-child(2) li {
+    list-style-image: url(../images/min.png);
+    list-style-position: inside;
+}
