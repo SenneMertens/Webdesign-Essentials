@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px;
+}
+
+body {
+    background:
+        radial-gradient(black 15%, transparent 16%) 0 0,
+        radial-gradient(black 15%, transparent 16%) 8px 8px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#282828;
+    background-size:16px 16px;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 1.5;
+}
+
+#container {
+    background-color: white;
+    margin: 30px auto;
+    padding: 25px;
+    max-width: 800px;
+    border: 3px solid #000;
+}
+
+h1, p {
+    margin-bottom: 30px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 650px;
+    border-collapse: collapse;
+    border: 2px solid #000;
+}
+
+tr, th {
+    width: 290px;
+    border: 1px dotted #999;
+}
+
+h1 a {
+    color: black;
+    border-bottom: 3px solid red;
+    text-decoration: none;
+}
+
+table a {
+    color: black;
+}
+
+table a:hover {
+    color: white;
+    background-color: black;
+}
+
+tr td {
+    background-color: #eee;
+}
+
+.flag {
+    width: 210px;
+    height: 150px;
+    margin: 10px auto;
+}
+
+.horizontal {
+    border-bottom: 50px solid transparent;
+    border-top: 50px solid transparent;
+}
+
+.vertical {
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+}
+
+#belgium {
+    background-color: yellow;
+    border-left: 70px solid black;
+    border-right: 70px solid red;
+}
+
+#france {
+    background-color: white;
+    border-left: 70px solid blue;
+    border-right: 70px solid red;
+}
+
+#germany {
+    background-color: red;
+    border-bottom: 50px solid yellow;
+    border-top: 50px solid black;
+}
+
+#italy {
+    background-color: white;
+    border-left: 70px solid green;
+    border-right: 70px solid red;
+}
+
+#netherlands {
+    background-color: white;
+    border-bottom: 50px solid blue;
+    border-top: 50px solid red;
+}

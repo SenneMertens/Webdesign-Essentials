@@ -1,0 +1,16 @@
+html {
+    font-size: 12px;
+}
+
+body {
+    background-color: white;
+}
+
+div {
+    background-image: none;
+    box-shadow: none;
+}
+
+nav {
+    display: none;
+}
