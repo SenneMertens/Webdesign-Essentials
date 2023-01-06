@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #c1ecd4;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+h1 {
+    background-color: #9fd1b5;
+    padding: 20px;
+}
+
+p {
+    padding: 20px;
+}
+
+p span {
+    color: #ff7164;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: 65vh;
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        font-size: 1.3rem;
+        text-align: left;
+        background-image: url(../images/offline.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: bottom;
+    }
+
+    h1 {
+        background-color: transparent;
+    }
+
+    img {
+        display: none;
+    }
+}
