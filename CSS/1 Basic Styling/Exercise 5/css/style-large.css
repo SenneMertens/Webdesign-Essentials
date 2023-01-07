@@ -1,9 +1,9 @@
 body {
-    font-size: 1.5rem;
     background-image: url(../images/home.png);
     background-position: bottom left;
     background-repeat: repeat-x;
     background-attachment: fixed;
+    font-size: 1.5rem;
 }
 
 table {
@@ -11,8 +11,8 @@ table {
 }
 
 caption {
-    color: #79a51b;
     background-color: black;
+    color: #79a51b;
     font-size: 1.2rem;
     caption-side: bottom;
 }

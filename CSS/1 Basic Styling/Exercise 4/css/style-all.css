@@ -7,25 +7,25 @@ figcaption {
 }
 
 a {
-    color: #009cab;
     background-color: white;
+    color: #009cab;
     font-weight: bold;
 }
 
 nav a {
-    color: #f04c25;
     background-color: white;
+    color: #f04c25;
     text-decoration: none;
 }
 
-nav a:hover {
-    color: white;
+nav a:hover { 
     background-color: #f04c25;
+    color: white;
 }
 
 nav a:focus {
-    color: black;
     background-color: yellowgreen;
+    color: black;
 }
 
 img {

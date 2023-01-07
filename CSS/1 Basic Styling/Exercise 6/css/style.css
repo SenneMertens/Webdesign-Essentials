@@ -7,13 +7,13 @@ h1 {
 }
 
 table {
-    border-collapse: collapse;
     margin-left: 40px;
+    border-collapse: collapse;
 }
 
 #layout1{
-    text-align: right;
     border: 6px solid #ccc;
+    text-align: right;
 }
 
 #layout1 th {
@@ -26,8 +26,8 @@ table {
 }
 
 #layout2 {
-    text-align: center;
     border: 2px solid #eee;
+    text-align: center;
 }
 
 #layout2 tr:nth-child(odd) {
@@ -35,9 +35,9 @@ table {
 }
 
 #layout3 {
-    text-align: left;
     border: 1px solid #000;
     box-shadow: 2px 2px 2px rgba(150, 150, 150, 0.6);
+    text-align: left;
 }
 
 #layout3 thead {
@@ -61,8 +61,8 @@ table {
 }
 
 #layout4 tr:first-child {
-    color: white;
     background-color: black;
+    color: white;
 }
 
 #layout4 tr:last-child {
