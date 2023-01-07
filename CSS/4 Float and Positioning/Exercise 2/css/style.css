@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+h1, h2, div {
+    margin: 20px;
+}
+
+div div {
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.combined {
+    width: 400px;
+    position: relative;
+}
+
+.style {
+    font-size: 2rem;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.style1 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-top: 190px;
+}
+
+
+.style1:hover {
+    background-color: transparent;
+}
+
+.style2 {
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 15px;
+    padding-top: 350px;
+}
+
+.style2:hover {
+    color: white;
+}
+
+.style3 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: right;
+    padding-right: 15px;
+    height: 50px;
+}
+
+.style3:hover {
+    background-color: black;
+}
+
+.style4 {
+    color: transparent;
+}
+
+.style4:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 190px;
+    clip-path: circle(50% at 50% 50%);
+}
