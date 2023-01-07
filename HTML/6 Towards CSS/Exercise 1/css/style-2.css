@@ -1,6 +1,6 @@
 #container {
-    margin: auto;
     padding: 10px;
+    margin: auto;
     width: 960px;
 }
 
@@ -15,12 +15,12 @@ h3 {
 
 a:link,
 a:visited {
-    font-weight: bold;
+    border-bottom: 1px solid #ec4b2f;
     color: #ec4b2f;
     background-color: transparent;
-    text-decoration: none;
-    border-bottom: 1px solid #ec4b2f;
     font-size: 0.8em;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover,
@@ -41,15 +41,15 @@ footer {
 }
 
 header {
-    display: block;
     position: relative;
+    display: block;
     text-align: left;
 }
 
 header img {
     position: absolute;
-    left: 20px;
     top: 18px;
+    left: 20px;
 }
 
 header h1 {
@@ -66,8 +66,8 @@ header h2 {
 }
 
 nav {
-    text-align: center;
     display: block;
+    text-align: center;
 }
 
 nav ul {
@@ -77,10 +77,10 @@ nav ul {
 }
 
 nav li {
-    margin: 0px 10px;
-    padding: 0px;
-    list-style-type: none;
     display: inline;
+    padding: 0px;
+    margin: 0px 10px;
+    list-style-type: none;
 }
 
 nav h3 {
