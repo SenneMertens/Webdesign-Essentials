@@ -47,8 +47,8 @@ footer li {
 nav a {
     background-color: #dce0e4;
     color: #f04c25;
-    text-decoration: none;
     font-weight: bold;
+    text-decoration: none;
 }
 
 nav a:hover {
@@ -106,6 +106,6 @@ td {
 
 nav a:hover {
     border: 3px solid white;
-    color: #f04c25;
     background-color: transparent;
+    color: #f04c25;
 }
