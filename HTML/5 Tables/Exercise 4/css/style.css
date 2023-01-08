@@ -15,7 +15,7 @@ td {
 }
 
 th {
+    width: 140px;
     background-color: #000;
     color: #fff;
-    width: 140px;
 }
