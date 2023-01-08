@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 html {
@@ -9,12 +9,14 @@ html {
 }
 
 body {
+    font-family: sans-serif;
     font-size: 1rem;
     line-height: 1.5;
-    font-family: sans-serif;
 }
 
-h1, h2, div {
+h1,
+h2,
+div {
     margin: 20px;
 }
 
@@ -23,30 +25,30 @@ div div {
 }
 
 img {
+    display: block;
     max-width: 100%;
     height: auto;
-    display: block;
 }
 
 .combined {
-    width: 400px;
     position: relative;
+    width: 400px;
 }
 
 .style {
-    font-size: 2rem;
-    height: 400px;
-    width: 400px;
     position: absolute;
     top: 0px;
     left: 0px;
+    width: 400px;
+    height: 400px;
+    font-size: 2rem;
 }
 
 .style1 {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    text-align: center;
     padding-top: 190px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
 }
 
 
@@ -55,9 +57,9 @@ img {
 }
 
 .style2 {
-    color: rgba(255, 255, 255, 0.5);
-    padding-left: 15px;
     padding-top: 350px;
+    padding-left: 15px;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .style2:hover {
@@ -65,11 +67,11 @@ img {
 }
 
 .style3 {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.4);
-    text-align: right;
-    padding-right: 15px;
     height: 50px;
+    padding-right: 15px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    text-align: right;
 }
 
 .style3:hover {
@@ -81,10 +83,10 @@ img {
 }
 
 .style4:hover {
-    color: white;
+    padding-top: 190px;
     background-color: rgba(0, 0, 0, 0.6);
+    color: white;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 190px;
     clip-path: circle(50% at 50% 50%);
 }
