@@ -7,8 +7,8 @@ body {
 }
 
 div {
-    background-image: none;
     box-shadow: none;
+    background-image: none;
 }
 
 nav {

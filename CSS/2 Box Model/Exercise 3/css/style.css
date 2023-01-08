@@ -1,7 +1,7 @@
 * {
-    margin: 0px;
-    padding: 0px;
     box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
 
 html {
@@ -15,26 +15,27 @@ body {
 }
 
 div {
-    background-color: white;
-    margin: 25px auto;
-    padding: 25px;
     max-width: 600px;
+    padding: 25px;
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgba(5, 5, 5, 0.5);
+    margin: 25px auto;
+    background-color: white;
     background-image: url(../images/key.png);
     background-position: right 40px;
     background-repeat: no-repeat;
 }
 
-h1, h2 {
-    color: #009cab;
+h1,
+h2 {
     margin: 20px 0px;
+    color: #009cab;
 }
 
 footer {
+    margin-top: 40px;
     font-weight: bold;
     text-align: right;
-    margin-top: 40px;
 }
 
 footer span {
@@ -45,22 +46,22 @@ p {
     text-align: justify;
 }
 
-nav li {    
+nav li {
+    display: inline-block;   
+    width: 90px; 
+    border-radius: 10px; 
+    margin: 4px;
     background-color: #666;      
     list-style-type: none;
-    margin: 4px;
-    width: 90px;
-    border-radius: 10px; 
-    display: inline-block;
 }
 
 nav li a {
+    display: inline-block;
+    width: 90px;
+    padding: 20px 20px 20px 25px;
     color: white;
     font-weight: bold;
-    text-decoration: none;   
-    padding: 20px 20px 20px 25px;
-    width: 90px;
-    display: inline-block;
+    text-decoration: none;
 }
 
 nav li:hover {
