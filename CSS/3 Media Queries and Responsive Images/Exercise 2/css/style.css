@@ -1,7 +1,7 @@
 * {
-    margin: 0px;
-    padding: 0px;
     box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
 
 html {
@@ -15,7 +15,12 @@ body {
     line-height: 1.5;
 }
 
-div, h1, h2, p, ul, figure {
+div,
+h1,
+h2,
+p,
+ul,
+figure {
     margin: 20px;
 }
 
@@ -23,12 +28,13 @@ li {
     margin-left: 15px;
 }
 
-div, header {
-    background-color: #fff;
-    margin: 10px auto;
+div,
+header {
     max-width: 1000px;
     border-top: 10px solid #009cab;
     border-bottom: 10px solid #009cab;
+    margin: 10px auto;
+    background-color: #fff;
 }
 
 header {
@@ -36,10 +42,10 @@ header {
 }
 
 p img {
+    object-position: left;
+    object-fit: cover;
     width: 160px;
     height: 180px;
-    object-fit: cover;
-    object-position: left;
 }
 
 figure {
@@ -65,8 +71,8 @@ figcaption {
 @media screen and (min-width: 700px) {
 
     p img {
-        width: 45%;
         object-fit: contain;
+        width: 45%;
     }
 }
 
