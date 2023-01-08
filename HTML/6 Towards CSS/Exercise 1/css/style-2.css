@@ -1,7 +1,7 @@
 #container {
+    width: 960px;
     padding: 10px;
     margin: auto;
-    width: 960px;
 }
 
 h1,
@@ -16,11 +16,11 @@ h3 {
 a:link,
 a:visited {
     border-bottom: 1px solid #ec4b2f;
-    color: #ec4b2f;
     background-color: transparent;
+    color: #ec4b2f;
     font-size: 0.8em;
-    text-decoration: none;
     font-weight: bold;
+    text-decoration: none;
 }
 
 a:hover,
@@ -71,9 +71,9 @@ nav {
 }
 
 nav ul {
+    display: inline;
     padding: 0px;
     list-style-type: none;
-    display: inline;
 }
 
 nav li {
@@ -99,10 +99,10 @@ section h3,
 article h1,
 article h2,
 article h3 {
-    background-color: #00a0ae;
-    color: #fff;
     padding: 9px 10px 10px 10px;
     margin: 13px -10px;
+    background-color: #00a0ae;
+    color: #fff;
 }
 
 section li a:link,
