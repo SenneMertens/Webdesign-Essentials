@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+header,
+footer,
+p {
+    padding: 30px;
+}
+
+header,
+footer {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 2px solid #666;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+ul {
+    margin-left: 18px;
+}
+
+li {
+    list-style-image: url(../images/arrow.png);
+}
+
+.month {
+    height: 240px;
+    border: 2px solid #666;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #666;
+    margin: 20px;
+    background-image: url(../images/cake.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.january,
+.may,
+.september {
+    background-color: #bfe0e9;
+}
+
+.february,
+.june,
+.october {
+    background-color: #eec9c1;
+}
+
+.march,
+.july,
+.november {
+    background-color: #b6ded3;
+}
+
+.april,
+.august,
+.december {
+    background-color: #f2e9d8;
+}
+
+@media screen and (min-width: 600px) {
+    header,
+    footer {
+        padding-bottom: 50px;
+        background-image: url(../images/cakes.png);
+        background-position: bottom left;
+        background-repeat: repeat-x;
+    }
+
+    #months {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .month {
+        flex: 1 0 240px;
+    }
+}
