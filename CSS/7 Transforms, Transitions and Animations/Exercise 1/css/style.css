@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #eee;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+h1 {
+    margin: 30px;
+}
+
+h2 {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+h2,
+p {
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 30px;
+    list-style: none;
+}
+
+li {
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+    box-shadow: 3px 3px 5px #666;
+    transition: transform 1s;
+}
+
+li:hover {
+    transform: scale(1.1);
+}
+
+li p:last-child { 
+    display: flex;
+    flex-grow: 1;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+}
+
+li p:last-child i {
+    align-self: flex-end;
+    padding: 0;
+    margin: 10px;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.green i {
+    color: darkgreen;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.yellow i {
+    color: goldenrod;
+}
+
+.pink {
+    background-color: hotpink;
+}
+
+.pink i {
+    color: purple;
+}
+
+.effect1 {
+    transform: rotate(-5deg);
+}
+
+.effect2 {
+    transform: rotate(-3deg) skewX(-3deg);
+}
+
+.effect3 {
+    transform: rotate(-3deg) skewY(-5deg);
+}

@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: lightgrey;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+h1,
+p,
+figure {
+    margin: 10px;
+}
+
+div {
+    width: 900px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+}
+
+figure {
+    position: relative;
+    display: inline-block;
+    border: 3px solid #000;
+    line-height: 0;
+}
+
+
+.love figcaption {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding-left: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    font-size: 2rem;
+    line-height: 1.5;
+    transition: transform 0.5s;
+    transform: rotateX(90deg);
+    transform-origin: top center;
+}
+
+.love:hover figcaption {
+    transform: none;
+}
+
+.phone figcaption {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 80%;
+    height: 50%;
+    border-radius: 25px;
+    padding-top: 15%;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 1.25rem;
+    text-align: center;
+    transition: transform 1s;
+}
+
+.phone:hover figcaption {
+    color: darkred;
+    font-weight: bold;
+    transform: scale(1.2);
+}
+
+.fa-heart {
+    padding: 0px 20px;
+    animation: beat 1s infinite;
+}
+
+.fa-phone-flip {
+    animation: tick 12s infinite steps(12);
+}
+
+.fa-euro-sign {
+    animation: blink 0.5s infinite steps(2);
+}
+
+@keyframes beat {
+    0% {
+        color: #f00;
+        transform: scale(1);
+    }
+    100% {
+        color: darkred;
+        transform: scale(2);
+    }
+}
+
+@keyframes tick {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes blink {
+    0% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
